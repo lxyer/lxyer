@@ -1,2 +1,11 @@
+#服务端口
 server:
   port: 8088
+#设置dataSource
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/lxyer?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: lxyer
+    driver-class-name: com.mysql.jdbc.Driver
